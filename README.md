@@ -28,7 +28,7 @@ KyaniteCyberLab is named after the blue mineral kyanite, reflecting the defensiv
 &ensp;☐ Legacy Network Security Hardware Research (Fortinet FortiGate 60D Firewall) <br>
 
 ---
-## 🌐 Lab Infrastructure  
+## 🌐︎ Lab Infrastructure  
 
 | **Item** | **Specifications** | 
 | --- | --- | 
@@ -58,7 +58,7 @@ graph TD
 
 ---
 
-## 💾︎ Tools & Technologies 
+## ⚒ Tools & Technologies 
 
 ### Security Tools
 
@@ -66,5 +66,5 @@ In Progress...
 
 ---
 
-## 🖉 Project Documentation 
+## 🗐 Project Documentation 
 
