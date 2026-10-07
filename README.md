@@ -1,12 +1,14 @@
-# BlueCyberLab 🔵
+# KyaniteCyberLab 🪨
 
-A dedicated defensive cybersecurity lab used for network analysis, threat detection, vulnerability assessment, malware analysis, and digital forensics and incident response (DFIR) exercises. 
+A dedicated defensive cybersecurity lab used for network analysis, threat detection, vulnerability assessment, malware analysis, and digital forensics & incident response (DFIR) exercises. 
 
 The goal of this lab is to build practical cybersecurity skills using open-source tools and budget-friendly hardware. It also serves as a hands-on learning environment to reinforce concepts and develop the experience I need to prepare for the CompTIA CySA+ exam. 
 
+KyaniteCyberLab is named after the blue mineral kyanite, reflecting the defensive blue team side of cybersecurity. Formed under immense geological pressure, kyanite symbolizes resilience, stability, and growth through challenging environments. 
+
 ---
 
-## 🖳 Objectives 
+## 🔵 Objectives 
 
 &ensp;❖ Build a dedicated cybersecurity testing environment. <br>
 &ensp;❖ Practice network monitoring and traffic analysis. <br>
@@ -20,7 +22,7 @@ The goal of this lab is to build practical cybersecurity skills using open-sourc
 
 | **Item** | **Specifications** | 
 | --- | --- | 
-| **Host Machine** | Secondhand Lenovo IdeaPad Y700 - 32GB RAM |
+| **Host Machine** | Secondhand Lenovo IdeaPad Y700 w/ 32GB RAM |
 | **Operating System** | Kali Linux | 
 | **Virtualization** | VirtualBox, VMware Workstation | 
 | **Virtual Machines** | Kali Linux, Metasploitable 2 | 
@@ -28,7 +30,7 @@ The goal of this lab is to build practical cybersecurity skills using open-sourc
 
 ---
 
-## 🗓️ Planned Projects
+## 🖿 Planned Projects
 
 &ensp;☐ Metasploitable 2 Enumeration <br>
 &ensp;☐ Network Traffic Analysis with Wireshark <br>
