@@ -1,4 +1,4 @@
-# KyaniteCyberLab 🪨
+# KyaniteCyberLab 🪨 → 🚧 In Progress
 
 A dedicated defensive cybersecurity lab used for network analysis, threat detection, vulnerability assessment, malware analysis, and digital forensics & incident response (DFIR) exercises. 
 
@@ -10,7 +10,7 @@ KyaniteCyberLab is named after the blue mineral kyanite, reflecting the defensiv
 
 ## 🔵 Objectives 
 
-&ensp;❖ Build a dedicated cybersecurity testing environment. <br>
+&ensp;❖ Build a cybersecurity testing environment. <br>
 &ensp;❖ Practice network monitoring and traffic analysis. <br>
 &ensp;❖ Develop vulnerability assessment skills. <br>
 &ensp;❖ Conduct malware and forensic investigations. <br>
@@ -18,7 +18,17 @@ KyaniteCyberLab is named after the blue mineral kyanite, reflecting the defensiv
 
 ---
 
-## 🖧 Lab Infrastructure 
+## 🖿 Planned Projects & Exercises 
+
+&ensp;☐ Snort IDS Deployment <br>
+&ensp;☐ Network Traffic Analysis with Wireshark <br>
+&ensp;☐ Metasploitable 2 Enumeration <br>
+&ensp;☐ Threat Detection <br>
+&ensp;☐ Digital Forensics Investigations <br>
+&ensp;☐ Legacy Network Security Hardware Research (Fortinet FortiGate 60D Firewall) <br>
+
+---
+## 🌐 Lab Infrastructure  
 
 | **Item** | **Specifications** | 
 | --- | --- | 
@@ -30,17 +40,31 @@ KyaniteCyberLab is named after the blue mineral kyanite, reflecting the defensiv
 
 ---
 
-## 🖿 Planned Projects
+## 🖧 Lab Topology 
 
-&ensp;☐ Metasploitable 2 Enumeration <br>
-&ensp;☐ Network Traffic Analysis with Wireshark <br>
-&ensp;☐ Snort IDS Deployment <br>
-&ensp;☐ Threat Detection <br>
-&ensp;☐ Digital Forensics Investigations <br>
-&ensp;☐ Legacy Network Security Hardware Research (Fortinet FortiGate 60D Firewall) <br>
+```mermaid
+graph TD
+    Internet[Internet]
+    Router[ISP Home Router]
+    Switch[TP-Link Managed Switch]
+    Host[Lenovo IdeaPad <br> Kali Linux OS]
+    VM[Metasploitable 2]
+
+    Internet --> Router
+    Router --> Switch
+    Switch --> Host
+    Host --> VM
+```
 
 ---
 
-## 📍 Lab Topology 
+## 💾︎ Tools & Technologies 
 
-Coming Soon...
+### Security Tools
+
+In Progress...
+
+---
+
+## 🖉 Project Documentation 
+
