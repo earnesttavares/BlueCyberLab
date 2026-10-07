@@ -43,22 +43,16 @@ KyaniteCyberLab is named after the blue mineral kyanite, reflecting the defensiv
 ## 🖧 Lab Topology 
 
 ```mermaid
-graph TD
-    Internet[Internet]
-    Router[ISP Home Router]
-    Switch[TP-Link Managed Switch]
-    Host[Lenovo IdeaPad <br> Kali Linux OS]
-    VM[Metasploitable 2]
-
-    Internet --> Router
-    Router --> Switch
-    Switch --> Host
-    Host --> VM
+graph LR
+    Internet[Internet] --> Router[ISP Router]
+    Router --> Switch[TP-Link Managed Switch]
+    Switch --> Host["Lenovo IdeaPad<br>Kali Linux"]
+    Host -.hosts.-> VM[Metasploitable 2] 
 ```
 
 ---
 
-## ⚒ Tools & Technologies 
+## 🛠 Tools & Technologies 
 
 ### Security Tools
 
